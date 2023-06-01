@@ -1,0 +1,10 @@
+
+eureka:
+  instance:
+    hostname: locahost
+
+  client:
+    register-with-eureka: false    #as a client kud se register na ho
+    fetch-registry: false
+server:
+    port: 8761
